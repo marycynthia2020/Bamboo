@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className="w-screen min-h-screen grid grid-rows-[auto_1fr_auto] relative"
       >
         <Navbar />
-        <div className="mt-36"></div>
+        <div className="mt-10"></div>
         {children}
         <Footer />
       </body>

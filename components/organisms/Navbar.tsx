@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
+import GetStartedBtn from "../atoms/GetStartedBtn"
 
 const Navbar = () => {
   return (
-    <nav className='fixed w-full py-5 z-[2000] bg-white border'>
+    <nav className='fixed w-full py-5 z-[2000] bg-white'>
       <div className='flex items-center justify-between max-w-[1440px] px-5 mx-auto '>
             <div>
               <Image src="/bamboologo.svg" width={142} height={40} alt="bamboo logo"  />
@@ -15,7 +16,7 @@ const Navbar = () => {
                 <p>FAQ</p>
             </div>
             <div>
-                <button className='bg-[#00A239] text-white py-3  px-5 rounded-md font-semibold ' >Get Started</button>
+                <GetStartedBtn />
             </div>
       </div>
     </nav>
