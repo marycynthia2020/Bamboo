@@ -1,8 +1,11 @@
 import React from 'react'
 
-const GetStartedBtn = () => {
+interface btnProps{
+  width? : string
+}
+const GetStartedBtn = ({ width }: btnProps) => {
   return (
-    <button className='bg-[#00A239] text-white py-3  px-5 rounded-md font-semibold ' >Get Started</button>
+    <button className={`bg-[#00A239] text-white py-3  px-5 rounded-md font-semibold ${width} `} >Get Started</button>
   )
 }
 

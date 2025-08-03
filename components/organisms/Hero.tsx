@@ -3,7 +3,7 @@ import LemonStartInvestingBtn from "../atoms/LemonStartInvestingBtn"
 
 const Hero = () => {
   return (
-    <section className='w-full bg-[#FEFBF5]  py-14  pt-28 '>
+    <section className='w-full  pb-14  pt-28 '>
             <div className='max-w-[1440px] mx-auto px-5  relative '>
                 <video  
                     loop

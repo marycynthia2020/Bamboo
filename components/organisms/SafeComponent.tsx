@@ -13,7 +13,7 @@ const SafeComponent = () => {
                 with the highest standards of security available.
               </p>
               <div className='w-full  md:flex flex-wrap  gap-y-16 justify-between gap-x-[10px]  mb-8'>
-                <div className='flex-1 min-w-64 max-w-[350px]'>
+                <div className='flex-1 min-w-64 max-w-80'>
                   <Image src="/bank.svg" alt='profile' width={26} height={26} className='mb-4' />
                   <p className='text-xl font-bold mb-2.5'>Bank Level Security</p>
                   <p>
