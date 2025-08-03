@@ -5,7 +5,7 @@ import GetStartedBtn from "../atoms/GetStartedBtn"
 const Navbar = () => {
   return (
     <nav className='fixed w-full py-5 z-[2000] bg-white'>
-      <div className='flex items-center justify-between max-w-[1440px] px-5 mx-auto '>
+      <div className='flex items-center justify-between max-w-[1440px] px-5 mx-auto'>
             <div>
               <Image src="/bamboologo.svg" width={142} height={40} alt="bamboo logo"  />
             </div>
@@ -16,7 +16,7 @@ const Navbar = () => {
                 <p>FAQ</p>
             </div>
             <div>
-                <GetStartedBtn />
+                <GetStartedBtn/>
             </div>
       </div>
     </nav>
